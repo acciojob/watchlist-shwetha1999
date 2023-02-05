@@ -7,7 +7,7 @@ public class Movie {
     public Movie(){
 
     }
-    Movie(String name,int durationInMinutes,double imdbRating)
+    public Movie(String name,int durationInMinutes,double imdbRating)
     {
         this.name=name;
         this.durationInMinutes=durationInMinutes;
