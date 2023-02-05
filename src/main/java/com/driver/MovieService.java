@@ -23,7 +23,7 @@ public class MovieService {
     }
 
     Director getdirectorbyname(String name){
-        return movieRepository.getdirecor(name);
+        return movieRepository.getdirector(name);
     }
 
     String addmoviedirectorPair(String mvName, String dirName){

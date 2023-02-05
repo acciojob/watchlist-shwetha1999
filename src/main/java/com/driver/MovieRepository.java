@@ -26,7 +26,7 @@ public class MovieRepository {
     public Movie getmovie(String name){
         return movies.get(name);
     }
-    public Director getdirecor(String name){
+    public Director getdirector(String name){
         return directors.get(name);
     }
 
