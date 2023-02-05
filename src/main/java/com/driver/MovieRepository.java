@@ -74,6 +74,8 @@ public class MovieRepository {
         {
             for(String m:pair.get(s))
                 list.add(m);
+            pair.remove(s);
+            directors.remove(s);
         }
         for(String i:list)
             movies.remove(i);
